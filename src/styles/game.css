@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.hud {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.design-panel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.room {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.module {
+    background-color: #444;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
