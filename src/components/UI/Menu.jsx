@@ -5,6 +5,7 @@ const Menu = ({ onStart }) => {
     <div className="menu-screen">
       <div className="menu-content">
         <h1 className="game-title"> Space Habitat Builder</h1>
+        <h2 className="game-title"> Mission XXI</h2>
         <p className="game-subtitle">Design and build your orbital space station</p>
         <div className="menu-buttons">
           <button className="btn-start" onClick={onStart}>
